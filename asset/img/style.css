@@ -566,6 +566,8 @@ footer .copyright {
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
+    padding-bottom: 90px;
 }
 #blog .blog-img{
     width: 50%;
@@ -581,8 +583,8 @@ footer .copyright {
 }
 #blog .blog-details a{
     text-decoration: none;
-    font-size: 11px;
-    color: #000;
+    font-size: 14px;
+    color: #000000;
     font-weight: 700;
     position: relative;
     transition: 0.2s;
@@ -606,7 +608,120 @@ footer .copyright {
 #blog .blog-box h1{
     position: absolute;
     top: -40px;
+    left: 0;
     font-size: 70px;
     font-weight: 700;
     color: #c9cbce;
+    z-index: -9;
+}
+/* about page  */
+#page-header.about-header {
+    background-image: url("/asset/img/about/banner.png");
+}
+#about-head{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head .Who{
+    width: 50%;
+}
+/* about-app section  */
+
+#about-app{
+    text-align: center;
+    
+}
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin-top: 30px auto 0 auto;
+    
+}
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+/* contact us  page*/
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-details .details {
+    width: 40%;
+}
+#contact-details .details span{
+    font-size: 12px;
+}
+#contact-details .details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+     
+}
+#contact-details .details h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;  
+}
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+#contact-details .map {
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#From-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+
+}
+#From-details form input,
+#From-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    bottom: 1px solid #e1e1e1;
+}
+#From-details form .normal{
+    background-color: #088178;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#From-details form span {
+    font-size: 12px;
+
+}
+
+#From-details form h2 {
+    font-size: 36px;
+    line-height: 35px;
+    padding: 20px 0;
 }
