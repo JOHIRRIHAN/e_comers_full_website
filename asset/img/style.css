@@ -130,7 +130,7 @@ body {
 }
 /* banner section page  */
 #hero{
-    background-image: url(/asset/img/hero4.png);
+    background-image: url('./asset/img/hero4.png');
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -616,7 +616,7 @@ footer .copyright {
 }
 /* about page  */
 #page-header.about-header {
-    background-image: url("/asset/img/about/banner.png");
+    background-image: url('./asset/img/about/banner.png');
 }
 #about-head{
     display: flex;
